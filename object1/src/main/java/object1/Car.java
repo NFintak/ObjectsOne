@@ -5,14 +5,14 @@ public class Car {
     private String model;
     private int year;
     private int mileage;
-    private boolean cleanTitle;
+    private int previousOwners;
 
     public Car(String make, String model, int year, int mileage) {
         this.make = make;
         this.model = model;
         this.year = year;
         this.mileage = mileage;
-        this.cleanTitle = cleanTitle;
+        this.previousOwners = previousOwners;
     }
 
     public String getMake() {
@@ -47,11 +47,11 @@ public class Car {
         this.mileage = mileage;
     }
 
-    public boolean getCleanTitle() {
-        return cleanTitle;
+    public int getPreviousOwners() {
+        return previousOwners;
     }
 
-    public void setCleanTitle(boolean cleanTitle) {
-        this.cleanTitle = cleanTitle;
+    public void setPreviousOwners(int previousOwners) {
+        this.previousOwners = previousOwners;
     }
 }

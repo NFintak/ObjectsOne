@@ -4,44 +4,34 @@ public class Chair {
     private String material;
     private String color;
     private int legs = 0;
-    private boolean hasArmrests = false;
 
     public Chair(String material, String color, int legs) {
         this.material = material;
         this.color = color;
         this.legs = legs;
-        this.hasArmrests = hasArmrests;
     }
 
-    public String getMaterial(String material) {
+    public String getMaterial() {
         return material;
     }
 
-    public void setMaterial() {
+    public void setMaterial(String material) {
         this.material = material;
     }
 
-    public String getColor(String color) {
+    public String getColor() {
         return color;
     }
 
-    public void setColor() {
+    public void setColor(String color) {
         this.color = color;
     }
 
-    public int getLegs(int legs) {
+    public int getLegs() {
         return legs;
     }
 
-    public void setLegs() {
+    public void setLegs(int legs) {
         this.legs = legs;
-    }
-
-    public boolean gethasArmrests(boolean hasArmrests) {
-        return hasArmrests;
-    }
-
-    public void setHasArmrests() {
-        this.hasArmrests = hasArmrests;
     }
 }
